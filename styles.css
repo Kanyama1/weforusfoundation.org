@@ -1,0 +1,245 @@
+/* General Styles */
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #212121;
+    background-color: #F5F5F5;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+/* Hero Section */
+.hero-section {
+    background-color: #E91E63;
+    color: #FFFFFF;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 2.5em;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.cta-buttons a {
+    margin: 0 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: #FFC107;
+    color: #FFFFFF;
+}
+
+.btn-secondary {
+    background-color: #3F51B5;
+    color: #FFFFFF;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* About Us Section */
+.about-section {
+    background-color: #FFFFFF;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.about-section h2 {
+    color: #E91E63;
+}
+
+/* Programs Section */
+.programs-section {
+    background-color: #F5F5F5;
+    padding: 40px 0;
+}
+
+.program {
+    display: inline-block;
+    width: 45%;
+    margin: 20px;
+    text-align: center;
+}
+
+.program img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.program h3 {
+    color: #3F51B5;
+}
+
+/* Success Stories Section */
+.success-stories-section {
+    background-color: #FFFFFF;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.success-stories-section h2 {
+    color: #E91E63;
+}
+
+.story img {
+    max-width: 120%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Get Involved Section */
+.get-involved-section {
+    background-color: #FFC107;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.get-involved-section h2 {
+    color: #FFFFFF;
+}
+
+.get-involved-section .cta-buttons a {
+    margin: 10px;
+}
+
+
+/* styles.css */
+.team-section {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.team-section h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.team-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.team-member {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.member-photo img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #007BFF;
+    margin-bottom: 20px;
+}
+
+.team-member h3 {
+    font-size: 24px;
+    color: #007BFF;
+    margin-bottom: 10px;
+}
+
+.team-member p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+
+/* Contact Section */
+.contact-section {
+    background-color: #fff;
+    padding: 50px 20px;
+}
+
+.contact-section form {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.contact-section label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.contact-section input, .contact-section textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact-info {
+    margin-top: 20px;
+    font-size: 1.1em;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+}
+
+.contact-info {
+    margin-top: 20px;
+    font-size: 1.1em;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+}
+
+
+/* Footer Section */
+.footer-section {
+    background-color: #4389f1;
+    color: #FFFFFF;
+    padding: 0.2px 0;
+    text-align: center;
+}
+
+.footer-links a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+
+.footer .social-media a {
+    color: #fff;
+    margin: 0 10px;
+}
